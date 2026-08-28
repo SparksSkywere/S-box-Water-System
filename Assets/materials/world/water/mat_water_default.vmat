@@ -1,0 +1,14 @@
+Layer0
+{
+	shader "shaders/world/water_simple.shader"
+
+	g_vColorTint "[0.120000 0.420000 0.680000 0.000000]"
+	Transparency "0.740"
+	WaveAmplitude "4.000"
+	WaveFrequency "0.800"
+
+	SystemAttributes
+	{
+		PhysicsSurfaceProperties "water"
+	}
+}

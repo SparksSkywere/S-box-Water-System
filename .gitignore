@@ -1,0 +1,23 @@
+# Build / editor
+.vs/
+bin/
+obj/
+*.user
+*.suo
+*.csproj
+*.sln
+*.userprefs
+
+# Compiled assets (engine regenerates these)
+*.sound_c
+*.vsnd_c
+*.vmat_c
+*.shader_c
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Local editor tool preferences (per-machine)
+Editor/Water/river_path_tool_settings.json
